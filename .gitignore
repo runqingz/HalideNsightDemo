@@ -34,3 +34,4 @@
 out/*
 build/*
 .vs/*
+src/out/*
