@@ -22,7 +22,7 @@ For Windows, the setting is under
 * NOTE: Our CMake setup is not copying Halide runtime library into the build binary fold, either copy Halide.dll (for windows) to the demo binary folder or make sure it is linked in system path
 
 ### Visual Studio
-Run this command to generate Visual Studio Solution:
+Run this command to generate Visual Studio Solution (In Visual Studio Developer PowerShell):
 
 ```cmake "Visual Studio 16 2019" -Thost=x64 -A x64 -DCMAKE_PREFIX_PATH=/path/to/Halide-install -S . -B build```
 
